@@ -96,6 +96,12 @@ html, body {
     width: 200px;
 }
 
+.content-container {
+    margin-left: 150px;
+    padding-left: 15px;
+}
+
+
 .edit-overlay {
     width: 100px;
     height: 100px;
