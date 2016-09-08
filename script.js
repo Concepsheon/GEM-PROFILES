@@ -24,6 +24,7 @@ $("#save-btn").click(function(){
 
 //loads template for supporting companies
 $("#supporting-companies").click(function(){
+    $("body").load("index.html");
     $.ajax({
         url: "companies.html",
         //change to false to retrieve current version of file
@@ -34,6 +35,7 @@ $("#supporting-companies").click(function(){
 });
 
 $("#projects").click(function(){
+    $("body").load("index.html");
     $.ajax({
         url: "projects.html", 
         cache: true
